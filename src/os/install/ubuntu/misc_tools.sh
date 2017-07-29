@@ -11,3 +11,6 @@ print_in_purple "\n   Miscellaneous Tools\n\n"
 install_package "cURL" "curl"
 install_package "ShellCheck" "shellcheck"
 install_package "xclip" "xclip"
+
+add_ppa "x4121/ripgrep"
+install_package "ripgrep" "ripgrep"
