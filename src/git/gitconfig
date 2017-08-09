@@ -18,6 +18,7 @@
     s   = status
     ulc = reset --soft HEAD~1                   # Undo last commit.
     w   = instaweb --httpd=webrick              # Start web-based visualizer.
+    ls = for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
