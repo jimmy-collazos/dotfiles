@@ -2,7 +2,7 @@
 
     a   = commit --amend
     br  = branch
-    c   = commit
+    c   = commit -am 
     ca  = !git add -A && git commit             # Commit all changes.
     co  = checkout
     cp  = cherry-pick
