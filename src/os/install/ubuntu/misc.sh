@@ -10,3 +10,4 @@ print_in_purple "\n   Miscellaneous\n\n"
 
 install_package "Transmission" "transmission"
 install_package "VLC" "vlc"
+install_package "Xclip" "xclip"
