@@ -26,20 +26,6 @@ brew_install "Firefox Nightly" "firefoxnightly" "homebrew/cask-versions" "cask"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-printf "\n"
-
-brew_install "Flash" "flash-npapi" "homebrew/cask" "cask"
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-printf "\n"
-
-brew_install "Opera" "opera" "caskroom/cask" "cask"
-brew_install "Opera Beta" "opera-beta" "caskroom/versions" "cask"
-brew_install "Opera Developer" "opera-developer" "caskroom/versions" "cask"
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
 # `Safari Technology Preview` requires macOS 10.11.4 or la
 # https://github.com/jimmy-collazos/dotfiles/issues
 
