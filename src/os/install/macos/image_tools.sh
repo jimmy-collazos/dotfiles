@@ -9,5 +9,5 @@ cd "$(dirname "${BASH_SOURCE[0]}")" \
 print_in_purple "\n   Image Tools\n\n"
 
 brew_install "ImageAlpha" "imagealpha" "homebrew/cask" "cask"
-brew_install "ImageMagick" "imagemagick --with-webp"
+brew_install "ImageMagick" "imagemagick"
 brew_install "LICEcap" "licecap" "homebrew/cask" "cask"
